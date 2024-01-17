@@ -89,6 +89,7 @@ button {
   align-items: center;
   text-align: center;
   margin: 0 auto;
+  object-fit: contain;
 }
 .card h2 {
   margin-bottom: 10px;
