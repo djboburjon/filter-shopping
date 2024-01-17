@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exam - JS</title>
+    <link rel="stylesheet" href="./main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <label class="label">
+        <input class="search" type="text" placeholder="Search" />
+        <button class="btnAll">All</button>
+        <button class="newProduct">New product</button>
+        <select class="select">
+          <option value="all">All</option>
+          <option value="men's clothing">Men's clothing</option>
+          <option value="women's clothing">Women's clothing</option>
+          <option value="jewelery">Jewelery</option>
+          <option value="electronics">Electronics</option>
+        </select>
+        <div class="card_icon">
+          <span class="amount">0</span>
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+      </label>
+
+      <div class="boxesLeft">
+        <div class="exit">
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+        <h1>selcted product</h1>
+        <div class="boxes"></div>
+      </div>
+
+      <div class="cards"></div>
+    </div>
+  </body>
+  <script src="./main.js"></script>
+</html>
